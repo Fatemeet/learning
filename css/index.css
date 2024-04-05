@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "fati-font";
+    src: url("../fonts/Lalezar-Regular.ttf");
+}
+
+
+
+*{
+     margin: 0%;
+     padding: 0% ;
+     font-family: "fati-font-";
+     box-sizing: border-box;
+    }
+ 
+.background {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(133, 194, 174);
+    position: relative;
+}
+
+.center-box {
+    width: 500px;
+    height: 650px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 0 6px rgb(40, 91, 90);
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    padding: 24px 32px;
+}
+
+.form-title {
+    color: #27539a;
+    text-align: center;
+    position: relative;
+}
+
+.form-title::before {
+    content: "";
+    position: absolute;
+    left: 10%;
+    width: 10px;
+    height: 10px;
+    background-color: #27539a;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+}
+
+.form-title::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 10%;
+    background-color: #27539a;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius:  20px;
+}
+
+.form-group { 
+    margin-top: 40px;
+
+
+}
+
+
+.input-form {
+    width: 100%;
+    height: 56px;
+    border: none;
+    border-bottom: 2px solid #1e604b;
+    font-size: 20px;
+    margin-bottom: 16px;
+
+
+}
+
+.input-form:focus {
+    outline: none;
+}
+
+.submit-containor {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.submit-bottom {
+    width: 300px;
+    height: 56px;
+    background-color: #5dc5ca;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+
+
+}
+
+.submit-bottom:hover {
+    background-color: #27539a;
+}
+
+
+
+
+
